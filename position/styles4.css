@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: pink;
+    border: 3px double black;
+    margin: 20px;
+    padding: 20px;
+    height: 800px;
+
+}
+#img1{
+    margin: 20px;
+    border: 3px solid black;
+}
+
+#img2{
+    margin: 20px;
+    border: 3px solid black;
+    /* position: relative;
+    top: 150px;
+    left: 100px; */
+
+    /* position: absolute;
+    top: 150px;
+    left: 100px; */
+}
+#img3{
+    margin: 20px;
+    border: 3px solid black;
+    position: sticky;
+}
+#img4{
+    margin: 20px;
+    border: 3px solid black;
+    position: fixed;
+}
+.abc{
+    background-color: pink;
+    border: 3px double black;
+    margin: 20px;
+    padding: 20px;
+    height: 800px;
+}

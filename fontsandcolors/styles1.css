@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* for red= 256 green = 120 and blue = 240 black=0 white=*/
+h1{
+    border: 4px solid black;
+    margin: 10px;
+    padding: 5px;
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: yellow;/* giving color by name we know in alphabets*/
+}
+
+p{
+    border: 4px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(163, 55, 55, 0.589) /* giving color by rgba where r=red g=green b=blue last no =alpha which shows the sharpness of the color*/
+}
+
+#abc{
+    border: 4px solid black;
+    margin: 10px;
+    padding: 5px;
+    font-size: larger; 
+    font-family: "Edu VIC WA NT Hand", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 70px; /* gap between two lines*/
+    background-color: #4cd6a1;/* giving color by hexdecimal where first two = red, mid two =green last thirdlast two = blue and last no =alpha which shows the sharpness of the color*/
+}
+
+

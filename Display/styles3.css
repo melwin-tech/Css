@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* display block
+block elements has the folloqing property
+1. It takes the full width from extreme left to extreme right.
+2. It comes in the new line
+3. We can adjust the height and width of the block in our own way. 
+4. We can adjust the margin and padding of the block in our own way. 
+block elements are p,div,h,ul,ol,li,article,nav,section,aside,header,footer,form,table,main
+*/
+
+#a{
+    background-color: bisque;
+    color: blue;
+    border: 3px solid red;
+    border-radius: 2px;
+    margin: 50px;
+    padding: 50px;
+    height: 250px;
+    width: 500px;
+}
+
+/* display inline
+block elements has the folloqing property
+1. It takes the full width of only content.
+2. It comes in the same line
+3. We can't adjust the height and width of the block in our own way. 
+4. We can't adjust the margin and padding of the block in our own way. 
+inline elements are span,a,br,i,input,label,script,small,stong,sup,sub,b,img,select,textarea
+*/
+
+#d{
+    background-color: bisque;
+    color: blue;
+    border: 3px solid red;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 5px;
+    height: 250px;
+    width: 500px;
+}
+
+/* you can convert block to inline and vice versa using dispaly: block; for making block and display: inline; for making inline  */
+
+#blocks{
+    background-color: bisque;
+    color: blue;
+    border: 3px solid red;
+    border-radius: 2px;
+    margin: 100px;
+    padding: 50px;
+    height: 250px;
+    width: 500px;
+    display: inline;
+}
+
+#spans{
+    background-color: bisque;
+    color: blue;
+    border: 3px solid red;
+    border-radius: 2px;
+    margin: 100px;
+    padding: 50px;
+    height: 250px;
+    width: 500px;
+    display: block;
+}
+
+
+

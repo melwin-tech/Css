@@ -1,0 +1,65 @@
+/* Always  try to use relative unit */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* unit % (relative to the parent element)
+here % means taking the x% of the parent element
+ex here the parent div take the height and width relative to body and the chikld div takes the height and width relative to parent div.
+now parent takes 10% the body height and 30% of the body width and child takes the 10% of th parent height and 30%of the parent width
+*/
+#parent{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    height: 50% ;
+    width: 50%;
+}
+#child{
+    background-color: beige;
+     border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    height: 10% ;
+    width: 30%;
+}
+/* unit - vh (relative to the viewport)
+here vh means taking the xvh of the viewport
+ex here the parent div take the height and width relative to viewport and the child div takes the height and width relative to viewport .
+now parent takes 50vh the body height and 50vw of the body width and child takes the 10vh of the viewport height and 10vw of the viewport width
+ */
+#parent-viewport{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    height: 50vh;
+    width: 50vw;
+}
+#child-viewport{
+    background-color: beige;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    height: 10vh;
+    width: 30vw;
+}
+/* unit - px (absolute unit doest depend on anything 
+px is the absolute unit which does not depend on the other elements.
+physical value of the pixel is the 1 px = 1/96 of the inch.
+*/
+#e{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    width: 500px;
+}
+
+
+

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* how to put border in box */
+h1{
+    background-color: beige;
+    border: 5px black;
+    border-style: solid;
+    border-radius: 10px;
+    /* you can apply indivually border on each side and border radius 
+    ie only bottom you can do it or only left you can do it and also apply for border radius 
+    */
+}
+
+/* box model
+margin
+border
+padding
+content
+*/
+
+/* margin and padding */
+/* margin - space between body and the border of the box
+margin: top right bottom left
+padding - space between border of the box and the content
+padding: top right bottom left
+*/
+
+#a{
+    background-color: pink;
+    color: green;
+    border: 2px dashed blue;
+    border-top-left-radius: 15px;
+    margin: 20px 20px 20px 50%;
+    padding: 20px;
+}
+.b{
+    background-color: pink;
+    color: green;
+    border: 2px dashed blue;
+    border-top-right-radius: 15px;
+    margin: 20px 70% 20px 20px;
+    padding: 20px;
+}
+
+/* height - here we decide the height of the containar
+width - here we decide the width of the containar
+*/
+
+#abc{
+    background-color: aqua;
+    color: red;
+    border: 2px double green;
+    border-bottom-left-radius: 2px;
+    margin:20px;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+/* margin padding height width - Are only applicable for block elements not for inline elements */

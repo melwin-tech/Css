@@ -1,0 +1,7 @@
+caomment one line at time and see the changes in the browser
+only imp things arre mention in the styles7.css
+
+links for reference
+https://www.w3schools.com/css/css3_flexbox.asp
+
+refer the above links for the defination or reading purpose
